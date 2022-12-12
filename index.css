@@ -156,9 +156,11 @@ header {
 }
 
 .txts {
+    width: 660px;
+    margin: auto;
     position: absolute;
-    bottom: 305px;
-    left: 170px;
+    bottom: 300px;
+    left: 230px;
 }
 
 .car_itm {
@@ -459,10 +461,18 @@ hr {
         bottom: 0px;
     }
 
-    .txts {
+    .txts2 {
+        width: 280px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .mau{
+        width: 100%;
+        text-align: center;
         position: absolute;
-        bottom: 210px;
-        left: 70px;
+        bottom: 215px;
+        margin: auto;
     }
 
     .carousel-item {
@@ -501,7 +511,7 @@ hr {
         margin-bottom: 11px;
         margin-top: 30px;
         margin-left: 10px;
-        margin-right: 10px;
+        /* margin-right: 10px; */
     }
 
     .gl_cl:hover {
@@ -517,7 +527,7 @@ hr {
         margin-bottom: 11px;
         margin-top: 30px;
         margin-left: 10px;
-        margin-right: 10px;
+        /* margin-right: 10px; */
     }
 
     .cares {
@@ -665,5 +675,14 @@ hr {
         color: #FFFFFF;
         margin-bottom: 32px;
         margin-top: 32px;
+    }
+
+    .palakat{
+        width: 280px;
+        text-align: center;
+        margin: auto;
+    }
+    .im_res{
+        text-align: center;
     }
 }
