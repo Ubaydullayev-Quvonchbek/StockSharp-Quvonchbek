@@ -452,6 +452,10 @@ hr {
     background: #2D353A;
 }
 
+.w9100{
+    height: 520px;
+}
+
 /*
 
 */
@@ -653,6 +657,10 @@ hr {
         background: #484848;
         box-shadow: 3px 1px 16px rgba(0, 0, 0, 0.21);
         border-radius: 0px;
+    }
+
+    .w9100{
+        height: 405px;
     }
 
     .txtres {
