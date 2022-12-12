@@ -1,0 +1,580 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="website icon" type="png" href="./img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Stock Sharp</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light d-block d-sm-none">
+            <div class="container-fluid">
+                <a class="navbar-brand s" href="#!">S#</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav1 d-none d-sm-block">
+            <div class="container">
+                <div class="row svj justify-content-between align-items-center">
+                    <div class="col-1 d-flex justify-content-start">
+                        <a class="s" href="#!">S#</a>
+                    </div>
+                    <div class="col-9 d-flex justify-content-between">
+                        <a class="nav1_txt" href="#!">Краудфандинг</a>
+                        <a class="nav1_txt" href="#!">Программы</a>
+                        <a class="nav1_txt" href="#!">Стоимость</a>
+                        <a class="nav1_txt" href="#!">Обучение</a>
+                        <a class="nav1_txt" href="#!">Торговые роботы</a>
+                        <a class="nav1_txt" href="#!">Разработка</a>
+                        <a class="nav1_txt" href="#!">Сообщество</a>
+                    </div>
+                    <div class="col-2 d-flex justify-content-between">
+                        <div class="ru_en ">
+                            <a class="ru" href="#!">RU</a>
+                            <a class="en" href="#!">EN</a>
+                        </div>
+                        <div class="icons">
+                            <a class="fa_fa" href="#!">
+                                <i class="fa-solid dodo fa-door-open"></i>
+                            </a>
+                            <a class="fa_fa" href="#!">
+                                <i class="fa-regular dodo fa-user"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="nav2 d-none d-sm-block">
+            <div class="container">
+                <div class="row cj justify-content-center">
+                    <div class="col-9 d-flex justify-content-between">
+                        <a class="nav2_txt" href="#!">Все</a>
+                        <a class="nav2_txt" href="#!">S#.Designer</a>
+                        <a class="nav2_txt" href="#!">S#.Data</a>
+                        <a class="nav2_txt" href="#!">S#.Terminal</a>
+                        <a class="nav2_txt" href="#!">S#.API</a>
+                        <a class="nav2_txt" href="#!">S#.Shell</a>
+                        <a class="nav2_txt" href="#!">Документация</a>
+                        <a class="nav2_txt" href="#!">Скачать</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/car1.jpg" class="d-block d-block20 w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/car2.jpg" class="d-block d-block20 w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/car3.jpg" class="d-block d-block20 w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="txts d-block d-sm-none">
+            <p class="StockSharpres">StockSharp</p>
+            <h1 class="программыres">Бесплатные <br> программы </h1>
+            <p class="краткоres">StockSharp (кратко S#) - <br> бесплатные программы для <br> торговли на всех площадках
+                <br> мира
+            </p>
+        </div>
+        <div class="txts d-none d-sm-block">
+            <p class="StockSharp">StockSharp</p>
+            <h1 class="Бесплатные">Бесплатные программы для <br> торговли и торговых роботов</h1>
+            <p class="кратко">StockSharp (кратко S#) - бесплатные программы для торговли на <br> всех
+                площадках мира (российские, американские, азиатские; <br> акции, фьючерсы, опционы,
+                биткоины, форекс и т.д.). Вы <br> сможете торговать в ручном режиме или с помощью торговых
+                <br> роботов (обычные или HFT).
+            </p>
+        </div>
+
+        <div class="car_itm d-none d-sm-block">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-3">
+                        <h1 class="Предлагаем">Предлагаем</h1>
+                    </div>
+                    <div class="col-8 d-flex justify-content-evenly">
+                        <div class="cardi">
+                            <i class="fa-sharp gl_cl fa-solid fa-desktop"></i>
+                            <div class="cadi_txt">
+                                <p class="Торговые">Торговые <br> Платформы</p>
+                            </div>
+                        </div>
+                        <div class="cardi">
+                            <i class="fa-solid gl_cl fa-graduation-cap"></i>
+                            <div class="cadi_txt">
+                                <p class="Торговые">Обучение <br> Алготрейдингу</p>
+                            </div>
+                        </div>
+                        <div class="cardi">
+                            <i class="fa-sharp gl_cl fa-solid fa-network-wired"></i>
+                            <div class="cadi_txt">
+                                <p class="Торговые">Купить <br> Коннекторы</p>
+                            </div>
+                        </div>
+                        <div class="cardi">
+                            <i class="fa-solid gl_cl fa-robot"></i>
+                            <div class="cadi_txt">
+                                <p class="Торговые">Торговые <br> Роботы</p>
+                            </div>
+                        </div>
+                        <div class="cardi">
+                            <i class="fa-solid gl_cl fa-server"></i>
+                            <div class="cadi_txt">
+                                <p class="Торговые" href="#!">Разработка <br> решений</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cares d-block d-sm-none d-flex justify-content-around">
+            <div class="care">
+                <i class="fa-sharp gl_cl fa-solid fa-desktop"></i>
+                <div class="cadi_txt">
+                    <p class="Торговые">Торговые <br> Платформы</p>
+                </div>
+            </div>
+            <div class="care">
+                <i class="fa-solid gl_cl fa-graduation-cap"></i>
+                <div class="cadi_txt">
+                    <p class="Торговые">Обучение <br> Алготрейдингу</p>
+                </div>
+            </div>
+            <div class="care">
+                <i class="fa-sharp gl_cl fa-solid fa-network-wired"></i>
+                <div class="cadi_txt">
+                    <p class="Торговые">Купить <br> Коннекторы</p>
+                </div>
+            </div>
+            <div class="care">
+                <i class="fa-solid gl_cl fa-robot"></i>
+                <div class="cadi_txt">
+                    <p class="Торговые">Торговые <br> Роботы</p>
+                </div>
+            </div>
+            <div class="care">
+                <i class="fa-solid gl_cl fa-server"></i>
+                <div class="cadi_txt">
+                    <p class="Торговые" href="#!">Разработка <br> решений</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sect1">
+        <div class="container d-none d-sm-block">
+            <div class="row">
+                <div class="col-5">
+                    <h1 class="sDesigner">S#.Designer</h1>
+                    <p class="для">Универсальная программа для создания торговых роботов и стратегий:</p>
+                    <div class="sect1_txtxs d-flex">
+                        <div class="tet">ГВД</div>
+                        <p class="визуальный">Графический визуальный дизайнер</p>
+                    </div>
+                    <div class="sect1_txtxs d-flex">
+                        <div class="tet">ССМ</div>
+                        <p class="визуальный">(создание стратегий мышкой).</p>
+                    </div>
+                    <div class="sect1_txtxs d-flex">
+                        <div class="tet">C С#</div>
+                        <p class="визуальный">Написание стратегий на C#.</p>
+                    </div>
+                    <div class="sect1_txtxs d-flex">
+                        <div class="tet">CCИ</div>
+                        <p class="визуальный">Простое создание собственных индикаторов.</p>
+                    </div>
+                    <div class="sect1_txtxs d-flex">
+                        <div class="tet">ТБ</div>
+                        <p class="визуальный">Подключения к множеству терминалов и брокерам.</p>
+                    </div>
+                    <div class="sect1_txtxs d-flex">
+                        <div class="tet">ВМП</div>
+                        <p class="визуальный">Все мировые площадки.</p>
+                    </div>
+                </div>
+                <div class="col-7">
+                    <img class="ime_dive" src="./img/comp.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <img class="ime_dive2" src="./img/comp2.png" alt="">
+                </div>
+                <div class="col-5">
+                    <h1 class="sDesigner">S#.DATA</h1>
+                    <p class="для">Программа для автоматического скачивания <br> исторических и реал-тайм
+                        маркет-данных:</p>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">РТС</div>
+                        <p class="визуальный">Поддерживает массу источников: (РТС, ММВБ, Финам, Yahoo <br> Finance,
+                            Quik, Transaq, SmartCOM, AlfaDirect, Plaza 2 (CGate), FIX/FAST, <br> Micex Bridge, LMAX,
+                            Rithmic, Fusion, Interactive Brokers, OpenECry, <br> Sterling, IQFeed, E*Trade, BTCE,
+                            BitStamp и многое другое). <br> Высокая степенью сжатия (2 байта на сделку, 7 байтов на
+                            стакан). <br> Любые типа данных (свечи, тики, стаканы, ордер-лог, опционы, <br> новости и
+                            другое).</p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">API</div>
+                        <p class="визуальный">Программный доступ через API.</p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">DB</div>
+                        <p class="визуальный">Экспорт в csv, excel, xml или базу данных.</p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ИД</div>
+                        <p class="визуальный">Импорт данных из csv.</p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ЗПР</div>
+                        <p class="визуальный">Задачи по расписанию.</p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">АС</div>
+                        <p class="визуальный">Авто-синхронизация через Интернет между несколькими <br> запущенными
+                            программами S#.Data.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="sDesigner">S#.Terminal</h1>
+                    <p class="для">Бесплатный торговый терминал</p>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ТСГ</div>
+                        <p class="визуальный">Торговля с графика
+                        </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ПТФ</div>
+                        <p class="визуальный">Произвольные тайм-фреймы
+                        </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ПС</div>
+                        <p class="визуальный"> Поддержка Volume, Tick, Range, P&F, Renko свечей </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">CCИ</div>
+                        <p class="визуальный">Кластеры и box графики </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">БГ</div>
+                        <p class="визуальный">Множество подключений
+                        </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">МП</div>
+                        <p class="визуальный">Любые рынки (акции, фьючерсы, Forex, биткоины)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <img class="ime_dive" src="./img/tabl.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <img class="ime_dive2" src="./img/comp3.png" alt="">
+                </div>
+                <div class="col-5">
+                    <h1 class="sDesigner">S#.SHEll</h1>
+                    <p class="для">Готовый графический каркас с возможностью оперативного изменения под ваши нужды и с
+                        полностью открытым кодом на языке C#:</p>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ПИК</div>
+                        <p class="визуальный">Полный исходный код
+                        </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ВПП</div>
+                        <p class="визуальный">Поддержка всех подключений платформы StockSharp: Quik, SmartCom, Plaza II
+                            CGate, FIX/FAST, Криптобирж (+30 на данный момент) и т.д.</p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">S#D</div>
+                        <p class="визуальный">Поддержка схем S#.Designer.
+                        </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ГПИ</div>
+                        <p class="визуальный">Гибкий пользовательский интерфейс
+                        </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ТС</div>
+                        <p class="визуальный">Тестирование стратегий (статистика, эквити, отчет).
+                        </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">СИВ</div>
+                        <p class="визуальный">Сохранение и восстановление настроек стратегии.
+                        </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ПЗС</div>
+                        <p class="визуальный">Параллельный запуск стратегий.
+                        </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ПИ</div>
+                        <p class="визуальный">Подробная информация о работе стратегии (ордера, сделки, позиция, прибыль,
+                            логи и т.д.)
+                        </p>
+                    </div>
+                    <div class="sect1_txtxs2 d-flex">
+                        <div class="tet">ЗС</div>
+                        <p class="визуальный">Запуск стратегий по расписанию.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="sDesigner2">S#.api</h1>
+                    <p class="профессиональной">Библиотека для профессиональной разработки торговых роботов на языке C#.
+                        Для тех, кто программирует в Visual Studio, и является профессиональным программистом в области
+                        алготрейдинга.</p>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <img class="ime_dive ime_dive3" src="./img/tabl2.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container d-block d-sm-none">
+            <div class="row">
+                <div class="col-12">
+                    <div class="im_res ffd">
+                        <img src="./img/comp_res.png" alt="">
+                    </div>
+                    <h1 class="sdes_res">S#.Designer</h1>
+                    <p class="программа_res">Универсальная программа для <br> создания торговых роботов и <br>
+                        стратегий:</p>
+                    <p class="Возможности">Возможности</p>
+                </div>
+                <div class="col-12">
+                    <div class="im_res">
+                        <img src="./img/comp2_res.png" alt="">
+                    </div>
+                    <h1 class="sdes_res">S#.DATA</h1>
+                    <p class="программа_res">Программа для автоматического <br> скачивания исторических и <br> реал-тайм
+                        маркет-данных:</p>
+                    <p class="Возможности">Возможности</p>
+                </div>
+                <div class="col-12">
+                    <div class="im_res">
+                        <img src="./img/tabl_res.png" alt="">
+                    </div>
+                    <h1 class="sdes_res">S#.Terminal</h1>
+                    <p class="программа_res">Бесплатный торговый терминал</p>
+                    <p class="Возможности">Возможности</p>
+                </div>
+                <div class="col-12">
+                    <div class="im_res">
+                        <img src="./img/comp3_res.png" alt="">
+                    </div>
+                    <h1 class="sdes_res">S#.SHEll</h1>
+                    <p class="программа_res">Готовый графический каркас с <br> возможностью оперативного <br> изменения
+                        под ваши нужды и с <br> полностью открытым кодом <br>
+                        на языке C#:</p>
+                    <p class="Возможности">Возможности</p>
+                </div>
+                <div class="col-12">
+                    <div class="im_res">
+                        <img src="./img/tabl2_res.png" alt="">
+                    </div>
+                    <h1 class="sdes_res">S#.API</h1>
+                    <p class="программа_res2">Библиотека для профессиональной <br> разработки торговых роботов на языке
+                        <br> C#. Для тех, кто программирует в Visual <br> Studio, и является профессиональным <br>
+                        программистом в области алготрейдинга.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="продукты">Все наши продукты:</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-4">
+                    <h1 class="dess">S#.Designer</h1>
+                    <hr>
+                    <div class="df_div d-flex">
+                        <div class="box_div"></div>
+                        <p class="роботов">универсальная программа для <br> создания торговых роботов и <br> стратегий.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4 d-none d-sm-block">
+                    <h1 class="dess">S#.data</h1>
+                    <hr>
+                    <div class="df_div d-flex">
+                        <div class="box_div"></div>
+                        <p class="роботов">программа для скачивания <br> маркет-данных. </p>
+                    </div>
+                </div>
+                <div class="col-4 d-none d-sm-block">
+                    <h1 class="dess">S#.api</h1>
+                    <hr>
+                    <div class="df_div d-flex">
+                        <div class="box_div"></div>
+                        <p class="роботов">библиотека для написания <br> торговых роботов на языке C# <br>
+                            в Visual Studio.</p>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-4">
+                    <h1 class="dess">ЛЧИ Viewer</h1>
+                    <hr>
+                    <div class="df_div d-flex">
+                        <div class="box_div"></div>
+                        <p class="роботов">графики конкурса ЛЧИ со <br> сделками участников.</p>
+                    </div>
+                </div>
+                <div class="col-4 d-none d-sm-block">
+                    <h1 class="dess">S#.shell</h1>
+                    <hr>
+                    <div class="df_div d-flex">
+                        <div class="box_div"></div>
+                        <p class="роботов">готовая графическая оболочка с <br> исходными кодами. </p>
+                    </div>
+                </div>
+                <div class="col-4 d-none d-sm-block">
+                    <h1 class="dess">S#.matlab</h1>
+                    <hr>
+                    <div class="df_div d-flex">
+                        <div class="box_div"></div>
+                        <p class="роботов">интеграция MatLab с торговыми <br> системами. Торговля из скриптов <br>
+                            MatLab.</p>
+                    </div>
+                </div>
+                <div class="col-4 d-none d-sm-block">
+                    <h1 class="dess">S#.terminal</h1>
+                    <hr>
+                    <div class="df_div d-flex">
+                        <div class="box_div"></div>
+                        <p class="роботов2">торговый терминал.</p>
+                    </div>
+                </div>
+                <div class="col-12 d-block d-sm-none">
+                    <h1 class="еще_res">Загрузить еще</h1>
+                </div>
+                <div class="col-8 d-flex justify-content-end d-none d-sm-block">
+                    <div class="df_dv">
+                        <a class="Скачать1" href="#!">Скачать</a>
+                        <a class="Скачать2" href="#!">документация</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="ckachat_crd d-block d-sm-none">
+        <h1 class="links1">Скачать</h1>
+        <h1 class="links2">документация</h1>
+    </footer>
+    <footer class="footer2 d-block d-sm-none">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 d-flex justify-content-center">
+                    <div class="txtres">
+                        <p class="vashshe_jahlim_chiqdi_lekin">О Компании</p>
+                        <p class="vashshe_jahlim_chiqdi_lekin">Контакты</p>
+                        <p class="vashshe_jahlim_chiqdi_lekin">Партнеры</p>
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-center">
+                    <div class="txtres">
+                        <p class="vashshe_jahlim_chiqdi_lekin">Условия и <br> положения</p>
+                        <p class="vashshe_jahlim_chiqdi_lekin">Лицензия</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-12 justify-content-center">
+                    <h1 class="Торговыероботы">© 2010 - 2019 Торговые <br> роботы StockSharp</h1>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

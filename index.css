@@ -1,0 +1,669 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background: #FFFFFF;
+}
+
+.nav1 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.1);
+    height: 90px;
+}
+
+.s {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #2D9CDB;
+    text-decoration: none;
+}
+
+.nav1_txt {
+    font-weight: 500;
+    font-size: 18px;
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+.nav1_txt:hover {
+    border-bottom: 1px solid #2D9CDB;
+    font-weight: 500;
+    font-size: 18px;
+    color: #2D9CDB;
+    text-decoration: none;
+}
+
+.ru {
+    font-weight: 500;
+    font-size: 18px;
+    color: #22779B;
+    text-decoration: none;
+    margin-right: 2px;
+}
+
+.ru:hover {
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+    text-decoration: none;
+    margin-right: 2px;
+}
+
+.en {
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.en:hover {
+    font-weight: 500;
+    font-size: 18px;
+    color: #22779B;
+    text-decoration: none;
+}
+
+.dodo {
+    color: black;
+    font-size: 25px;
+}
+
+.dodo:hover {
+    color: #2D9CDB;
+    font-size: 25px;
+}
+
+.ru_en {
+    margin-left: 35px;
+}
+
+.fa_fa {
+    text-decoration: none;
+    margin-left: 14px;
+}
+
+.svj {
+    padding-top: 7px;
+}
+
+.nav2 {
+    background: #FFFFFF;
+    border-top: 1px solid #CECECE;
+    height: 50px;
+}
+
+.nav2_txt {
+    font-weight: 500;
+    font-size: 18px;
+    color: #4F4F4F;
+    text-decoration: none;
+}
+
+.nav2_txt:hover {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2D9CDB;
+    text-decoration: none;
+}
+
+.cj {
+    padding-top: 11px;
+}
+
+.boxi {
+    box-sizing: content-box;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-item {
+    height: 725px;
+    width: 100%;
+}
+
+.d-block20 {
+    height: 725px;
+    width: 100%;
+}
+
+.car_itm {
+    background: #2D353A;
+    opacity: 0.85;
+}
+
+.Предлагаем {
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-top: 78.56px;
+}
+
+header {
+    position: relative;
+}
+
+.txts {
+    position: absolute;
+    bottom: 305px;
+    left: 170px;
+}
+
+.car_itm {
+    width: 100%;
+    height: 203px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.carousel-indicators {
+    bottom: 230px;
+}
+
+.Торговые {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.boxi {
+    background: #3A637E;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 17.38px;
+}
+
+.gl_cl {
+    color: white;
+    background: #3A637E;
+    font-size: 35px;
+    border-radius: 100%;
+    box-sizing: content-box;
+    padding: 16px 13px 11px 15px;
+    height: 46px;
+    width: 46px;
+    margin-bottom: 11px;
+}
+
+
+
+.gl_cl:hover {
+    background: white;
+    color: #3A637E;
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 100%;
+    box-sizing: content-box;
+    padding: 16px 13px 11px 15px;
+    height: 46px;
+    width: 46px;
+    margin-bottom: 11px;
+}
+
+.cardi {
+    text-align: center;
+    margin: auto;
+    width: 161px;
+    height: 122px;
+    margin-top: 43px;
+}
+
+.cadi_txt {
+    text-align: center;
+    margin: auto;
+}
+
+.StockSharp {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: start;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+.Бесплатные {
+    font-weight: 600;
+    font-size: 46px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.кратко {
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.для {
+    font-weight: 500;
+    font-size: 21px;
+    color: #828282;
+    opacity: 0.8;
+    margin-bottom: 29px;
+}
+
+.sDesigner {
+    font-weight: 600;
+    font-size: 46px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 133px;
+    margin-bottom: 12px;
+}
+
+.tet {
+    background: #2D9CDB;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    margin-right: 12px;
+}
+
+.визуальный {
+    font-weight: 500;
+    font-size: 16px;
+    color: #202020;
+}
+
+.ime_dive {
+    margin-top: 81px;
+    margin-left: 100px;
+}
+
+.sect1_txtxs2 {
+    width: 565px;
+}
+
+.ime_dive2 {
+    margin-right: 100px;
+    margin-top: 70px;
+}
+
+.sDesigner2 {
+    font-weight: 600;
+    font-size: 46px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 230px;
+}
+
+.профессиональной {
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 16px;
+    color: #202020;
+}
+
+.ime_dive3 {
+    margin-bottom: 58px;
+}
+
+.footer1 {
+    background: url(./img/foot_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.продукты {
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: 98px;
+}
+
+.dess {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #888888;
+    margin-top: 87px;
+}
+
+.box_div {
+    width: 19px;
+    height: 18px;
+    background: #2D9CDB;
+    border-radius: 2px;
+    margin-top: 6px;
+    margin-right: 12px;
+}
+
+.роботов {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.роботов2 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+
+hr {
+    /* 1px solid #828282 */
+    color: white;
+    border-style: solid;
+}
+
+.Скачать1 {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 510px;
+}
+
+.Скачать1:hover {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 1px solid #BABABA;
+}
+
+.Скачать2 {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.Скачать2:hover {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 1px solid #BABABA;
+}
+
+.df_dv {
+    margin-top: 124px;
+}
+
+.StockSharpres {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.программыres {
+    font-weight: 600;
+    font-size: 46px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.краткоres {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cares {
+    background: #2D353A;
+}
+
+/*
+
+*/
+
+@media (max-width: 575px) {
+    .carousel-indicators {
+        bottom: 0px;
+    }
+
+    .txts {
+        position: absolute;
+        bottom: 210px;
+        left: 70px;
+    }
+
+    .carousel-item {
+        height: 407px;
+        width: 100%;
+    }
+
+    .d-block20 {
+        height: 407px;
+        width: 100%;
+    }
+
+    .Торговые {
+        font-weight: 500;
+        font-size: 10px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .ic_res {
+        width: 23px;
+        height: 23px;
+        margin: auto;
+    }
+
+    .gl_cl {
+        color: white;
+        background: #3A637E;
+        font-size: 19px;
+        border-radius: 100%;
+        box-sizing: content-box;
+        padding: 14px;
+        height: 23px;
+        width: 23px;
+        text-align: center;
+        margin-bottom: 11px;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .gl_cl:hover {
+        background: white;
+        color: #3A637E;
+        font-size: 19px;
+        border-radius: 100%;
+        box-sizing: content-box;
+        padding: 14px;
+        height: 23px;
+        width: 23px;
+        text-align: center;
+        margin-bottom: 11px;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .cares {
+        height: 148px;
+    }
+
+    .care {
+        box-sizing: content-box;
+        width: 68px;
+        height: 90px;
+    }
+
+    .sdes_res {
+        font-weight: 600;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #333333;
+        margin-top: 17px;
+        margin-bottom: 20px;
+    }
+
+    .программа_res {
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        color: #828282;
+        opacity: 0.8;
+    }
+
+    .Возможности {
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #2E2E2E;
+        border-bottom: 1px solid #ACACAC;
+        width: 155px;
+        margin: auto;
+        margin-top: 65px;
+        margin-bottom: 65px;
+    }
+
+    .ffd {
+        margin-top: 13px;
+    }
+
+    .программа_res2 {
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: #202020;
+        opacity: 0.8;
+        margin-bottom: 50px;
+    }
+
+    .dess {
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #888888;
+        margin-top: 60px;
+    }
+
+    .роботов {
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-bottom: 80px;
+    }
+
+    .еще_res {
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #FFFFFF;
+        border-bottom: 1px solid #ACACAC;
+        width: 160px;
+        margin: auto;
+        margin-bottom: 67px;
+        cursor: pointer;
+    }
+
+    .ckachat_crd {
+        height: 200px;
+        width: 100%;
+        background: white;
+    }
+
+    .links1 {
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #202020;
+        cursor: pointer;
+        border-bottom: 1px solid #BABABA;
+        width: 120px;
+        margin: auto;
+        margin-top: 96px;
+        margin-bottom: 23px;
+    }
+
+    .links2 {
+        font-weight: 500;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #202020;
+        cursor: pointer;
+        border-bottom: 1px solid #BABABA;
+        width: 220px;
+        margin: auto;
+        margin-bottom: 79.28px;
+    }
+
+    .footer2 {
+        background: #484848;
+        box-shadow: 3px 1px 16px rgba(0, 0, 0, 0.21);
+        border-radius: 0px;
+    }
+
+    .txtres {
+        margin-top: 50px;
+    }
+
+    .vashshe_jahlim_chiqdi_lekin {
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+        opacity: 0.5;
+        cursor: pointer;
+        margin-bottom: 28px;
+    }
+
+    .Торговыероботы {
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+}
